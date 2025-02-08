@@ -23,21 +23,7 @@ This project is a machine learning application that predicts income levels based
 - **Development**: Python 3.10+
 
 ## Project Structure
-
-us-census-demographic-analysis/
-├── app.py # Streamlit frontend application
-├── run.py # Application orchestration script
-├── backend/
-│ ├── init.py
-│ ├── main.py # FastAPI backend server
-│ ├── data_processor.py # Data preprocessing pipeline
-│ └── models/
-│ ├── NN-model.h5 # Trained neural network model
-│ ├── pca.pkl # PCA transformation model
-│ ├── feature_scaler.pkl # Feature scaling model
-│ └── target_scaler.pkl # Target scaling model
-└── requirements.txt
-
+us-census-demographic-analysis/ ├── app.py # Streamlit frontend application ├── run.py # Application orchestration script ├── backend/ │ ├── init.py │ ├── main.py # FastAPI backend server │ ├── data_processor.py # Data preprocessing pipeline │ └── models/ │ ├── NN-model.h5 # Trained neural network model │ ├── pca.pkl # PCA transformation model │ ├── feature_scaler.pkl # Feature scaling model │ └── target_scaler.pkl # Target scaling model └── requirements.txt
 ## Data Processing Pipeline
 
 The application implements a robust data processing pipeline:
