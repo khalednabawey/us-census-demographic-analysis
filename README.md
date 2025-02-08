@@ -13,15 +13,6 @@ This project is a machine learning application that predicts income levels based
 - 🔄 Automated data preprocessing pipeline
 - 📈 Model performance metrics visualization
 
-## Model Performance
-
-Our Neural Network model achieves strong predictive performance:
-
-- R² Score: 0.856 (85.6%)
-- MSE: 0.0335
-- Indicates high explained variance and low error rates
-- Robust performance on diverse demographic data
-
 ## Tech Stack
 
 - **Frontend**: Streamlit
@@ -51,25 +42,28 @@ us-census-demographic-analysis/
 
 The application implements a robust data processing pipeline:
 
-### 1. Data Cleaning (`clean_data`)
+### 1. Data Cleaning
 
 - Removes duplicate entries
 - Handles missing values
 - Detects and removes outliers using Isolation Forest
 - Ensures data quality and consistency
 
-### 2. Preprocessing (`preprocess_data`)
+### 2. Preprocessing
 
 - Applies log transformation to numeric features
 - Performs feature scaling using pre-trained scaler
 - Reduces dimensionality using PCA
 - Ensures consistent feature engineering
 
-### 3. Prediction Preparation (`prepare_for_prediction`)
+### 3. Prediction Preparation
 
 - Validates input data
 - Applies preprocessing transformations
 - Prepares data for model inference
+
+### 4. Data Analysis (Tableau Dashboard)
+You can view the US Census Demographics data interactive dashboard [here]([https://public.tableau.com/views/your_dashboard](https://public.tableau.com/views/USCensusDemographicAnalysis_17339499055870/AnalysisDashboard?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)).
 
 ## Installation
 
@@ -187,9 +181,9 @@ streamlit run app.py
 
 ### Performance Metrics
 
-- Training Accuracy: 85.6%
-- Validation R² Score: 0.856
-- Mean Squared Error: 0.0335
+- Training Accuracy
+- Validation R² Score
+- Mean Squared Error
 
 ## Contributing
 
