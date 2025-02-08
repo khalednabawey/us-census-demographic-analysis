@@ -63,7 +63,7 @@ The application implements a robust data processing pipeline:
 - Prepares data for model inference
 
 ### 4. Data Analysis (Tableau Dashboard)
-You can view the US Census Demographics data interactive dashboard [here](https://public.tableau.com/views/USCensusDemographicAnalysis_17339499055870/AnalysisDashboard?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link).
+You can view the US Census Demographics data interactive dashboard [here](https://public.tableau.com/views/USCensusDemographicAnalysis_17339499055870/AnalysisDashboard?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link){:target="_blank"}.
 
 ## Installation
 
